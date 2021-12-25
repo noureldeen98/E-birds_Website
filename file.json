@@ -1,0 +1,114 @@
+[
+  {
+    "id": 0,
+    "type":"bird",
+    "name": "Cockatiel (Nymphicus hollandicus)",
+    "price": 29.99,
+    "imgSrc": "photo/birds for sale/Cockatiel (Nymphicus hollandicus).jpg"
+  },
+  {
+    "id": 1,
+    "type":"bird",
+    "name": "Green Parakeet (Melopsittacus undulatus",
+    "price": 24.99,
+    "imgSrc": "photo/birds for sale/Green Parakeet (Melopsittacus undulatus)2.png"
+  },
+  {
+    "id": 2,
+    "type":"bird",
+    "name": "Blue Parakeet (Melopsittacus undulatus)",
+    "price": 19.99,
+    "imgSrc": "photo/birds for sale/Blue Parakeet (Melopsittacus undulatus).png"
+  },
+  {
+    "id": 3,
+    "type":"bird",
+    "name": "Yellow Canary (Serinus canaria)",
+    "price": 25.99,
+    "imgSrc": "photo/birds for sale/Yellow Canary (Serinus canaria).jpg"
+  },
+  {
+    "id": 4,
+    "type":"bird",
+    "name": "Green Cheek Conure (Pyrrhura molinae)",
+    "price": 29.99,
+    "imgSrc": "photo/birds for sale/Green Cheek Conure (Pyrrhura molinae)1.jpg"
+  },
+  {
+    "id": 5,
+    "type":"bird",
+    "name": "Zebra Finch (Taeniopygia guttata)",
+    "price": 39.99,
+    "imgSrc": "photo/birds for sale/Zebra Finch (Taeniopygia guttata)2.jpg"
+  },
+  {
+    "id": 6,
+    "type":"bird",
+    "name": "Sun Conure (Aratinga solstitialis)",
+    "price": 18.00,
+    "imgSrc": "photo/birds for sale/Sun Conure (Aratinga solstitialis)1.jpg"
+  },
+  {
+    "id": 7,
+    "type":"bird",
+    "name": "Society Finch (Lonchura domestica)",
+    "price": 40.00,
+    "imgSrc": "photo/birds for sale/Society Finch (Lonchura domestica).jpg"
+  },
+  {
+    "id": 8,
+    "type":"product",
+    "name": "2GR York Cage",
+    "price": 40.00,
+    "imgSrc": "photo/product/2GR York Cage.jpg"
+  },
+  {
+    "id": 9,
+    "type":"product",
+    "name": "FerPlast CAGE REGINA",
+    "price": 30.00,
+    "imgSrc": "photo/product/FerPlast CAGE REGINA.jpg"
+  },
+  {
+    "id": 10,
+    "type":"product",
+    "name": "FerPlast REKORD",
+    "price": 48.00,
+    "imgSrc": "photo/product/FerPlast REKORD 1.jpg"
+  },
+  {
+    "id": 11,
+    "type":"product",
+    "name": "Yellow Canary cage",
+    "price": 20.00,
+    "imgSrc": "photo/product/1-0180002920_1800x1800.jpg"
+  },
+  {
+    "id": 12,
+    "type":"product",
+    "name": "Deli Nature Eggfood Yellow Dry",
+    "price": 40.00,
+    "imgSrc": "photo/product/Deli Nature Eggfood Yellow Dry.jpg"
+  },
+  {
+    "id": 13,
+    "type":"product",
+    "name": "Deli Nature Five Star Menu Budgies",
+    "price": 35.00,
+    "imgSrc": "photo/product/Deli Nature Five Star Menu Budgies.png"
+  },
+  {
+    "id": 14,
+    "type":"product",
+    "name": "Bird Drink Bottle",
+    "price": 18.00,
+    "imgSrc": "photo/product/1.jpg"
+  },
+  {
+    "id": 15,
+    "type":"product",
+    "name": "2GR Paradise Nest",
+    "price": 20.00,
+    "imgSrc": "photo/product/2GR Paradise Nest.jpg"
+  }
+]

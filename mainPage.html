@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <!-- container -->
+    <div class="container-fluid">
+        <!-- header and nav bar -->
+        <div class="container-fluid">
+            <!-- header -->
+            <header class="container-fluid">
+                <img src="image/12.png" style="width: 10%; display: inline; border-radius: 50%" />
+                <h1 style="display: inline; margin-top: 50px">
+                    <span id="span1">e</span><span id="span2">Birds</span>
+                </h1>
+            </header>
+
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #161b1f;">
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item li-nav">
+                                    <a class="nav-link active" aria-current="page" href="mainPage.html">Home</a>
+                                </li>
+                                <li class="nav-item li-nav">
+                                    <a class="nav-link" href="bird.html" style="color: floralwhite">birds</a>
+                                </li>
+                                <li class="nav-item li-nav">
+                                    <a class="nav-link" href="product.html" style="color: floralwhite">Products</a>
+                                </li>
+                                <li class="nav-item li-nav">
+                                    <a class="nav-link" href="#contact" style="color: floralwhite">Contact_US</a>
+                                </li>
+                                <li class="nav-item li-nav">
+                                    <a class="nav-link" href="About_Us.html" style="color: floralwhite">About_US</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+
+                                <button type="button" class="btn btn-outline-success mx-auto d-block"
+                                    data-bs-toggle="modal" data-bs-target="#modalForm">
+                                    login
+                                </button>
+
+                                <a href="Sign_Up.html" target="_blank" id="btn-sign"
+                                    class="btn btn-outline-success mx-2 d-block"> Sign Up</a>
+
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">
+                                                    login form
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="mb-3">
+                                                        <label class="form-label">Email Address</label>
+                                                        <input type="text" class="form-control" id="username"
+                                                            name="username" placeholder="Username" />
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label class="form-label">Password</label>
+                                                        <input type="password" class="form-control" id="password"
+                                                            name="password" placeholder="Password" />
+                                                    </div>
+                                                    <div class="mb-3 form-check">
+                                                        <input type="checkbox" class="form-check-input"
+                                                            id="rememberMe" />
+                                                        <label class="form-check-label" for="rememberMe">Remember
+                                                            me</label>
+                                                    </div>
+                                                    <div class="modal-footer d-block">
+                                                        <p class="float-start">
+                                                            Not yet account
+                                                            <a href="Sign_Up.html" target="_blank">Sign Up</a>
+                                                        </p>
+                                                        <button type="submit" class="btn btn-primary float-end">
+                                                            Submit
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- section one  vedio -->
+        <div class="container-fluid">
+            <video controls autoplay loop muted class="container-fluid">
+                <source src="video/ebirds.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- second section about us-->
+        <section class="container-fluid" id="second">
+            <div class="row" style="padding: 0.5em;">
+                <h2 style="text-align: center;">About us</h2>
+                <h2 style="text-align: center;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quam totam
+                    amet
+                    dolor eum dolore dolorem voluptatibus? Tempora, nisi nam libero natus consequatur officiis inventore
+                    tenetur
+                    facere quibusdam cumque asperiores praesentium!
+                </h2>
+            </div>
+
+            <div class="row" style="padding: 0.5em;">
+
+                <div class="col-4 sec-about">
+                    <h1>32+</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum
+                        has
+                        been
+                        the industry's standard dummy text ever since the 1500s
+                    </p>
+                </div>
+
+                <div class="col-4 sec-about">
+                    <h1>400+</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum
+                        has
+                        been
+                        the industry's standard dummy text ever since the 1500
+                    </p>
+                </div>
+
+                <div class="col-4 sec-about">
+                    <h1>23+</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum
+                        has
+                        been
+                        the industry's standard dummy text ever since the 1500s,
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="padding: 0.5em;">
+                <button id="btnAboutUs">Know more</button>
+            </div>
+        </section>
+
+
+        <!-- third section cotact us-->
+        <section style="background-image:url(image/bird.jpg) ;" id="contact">
+            <div class="row" style="padding:1rem">
+                <h2 style="text-align: center;">Contact us</h2>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Molestiae,
+                    modi nesciunt laboriosam
+                    voluptatem
+                    vitae optio mollitia doloremque omnis voluptate, animi aliquid m</p>
+            </div>
+            <div class="row">
+                <aside class="col-6" id="as-li">
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marked"></i><span> Address </span></li>
+                        <li><i class="fas fa-mobile-alt"></i><span> Phone </span></li>
+                        <li><i class="fas fa-envelope"></i><span> Email </span></li>
+                    </ul>
+                </aside>
+
+                <aside class="col-6">
+                    <form style="width: 20rem ;" id="form-cont">
+                        <div>
+                            <label for="fullname" class="col-form-label">full name</label>
+                            <input type="text" class="form-control" name="fullname" id="fullname"
+                                placeholder="your full name">
+                        </div>
+                        <div>
+                            <label for="Email " class="col-form-label">Email</label>
+                            <input type="text" class="form-control" name="Email" id="Email" placeholder="your email">
+                        </div>
+                        <div>
+                            <label for="yourmessage" class="col-form-label">your message</label>
+                            <textarea class="form-control" cols="10" rows="3"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="submitBtnForm">submit</button>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+        </section>
+
+
+        <footer class="secondaryFooter container-fluid" style="background-color: #374248;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        text-align: center;">
+            <div class="row">
+                <h1> <span id="span1">e</span><span id="span2" style="color: #E9F7DE;">Birds</span></h1>
+            </div>
+            <!-- first row -->
+            <div class="row" style="margin-top: 3rem;">
+                <div class="col-3">
+                    <div class="row">
+                        <h3 style="color: white;">Footer Content</h3>
+                    </div>
+                    <div class="container" style="color: white;">h</div>
+                    <div class="container" style="color: white;">h</div>
+                    <div class="container" style="color: white;">h</div>
+                </div>
+
+                <div class="col-3">
+                    <div class="row">
+                        <h3 style="color: white;">Links</h3>
+                    </div>
+                    <div class="container" style="color: white;">h</div>
+                    <div class="container" style="color: white;">h</div>
+                    <div class="container" style="color: white;">h</div>
+                </div>
+
+                <div class="col-3">
+                    <div class="row">
+                        <h3 style="color: white;">Links</h3>
+                    </div>
+                    <div class="container" style="color: white;">h</div>
+                    <div class="container" style="color: white;">h</div>
+                    <div class="container" style="color: white;">h</div>
+                </div>
+
+                <div class="col-3">
+                    <div class="row">
+                        <h3 style="color: white;">Links</h3>
+                    </div>
+                    <div class="container" style="color: white;">h</div>
+                    <div class="container" style="color: white;">h</div>
+                    <div class="container" style="color: white;">h</div>
+                </div>
+            </div>
+            <hr class="container-fluid" style="color: white; height: .2rem;">
+            <!-- second row -->
+            <div class="row" style="margin-top: 1rem;">
+                <div style="margin-top: 20px;">
+                    <div class="col">
+                        <h2 style="color: white;">Register for free</h2>
+                        <button class="submitBtnForm">Sign-up</button>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="container-fluid" style="color: white; height: .2rem;">
+            <!-- third row -->
+            <div class="row" style="margin-top: 1rem;">
+                <ul class="socialMedia">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                </ul>
+            </div>
+
+        </footer>
+
+        <footer class="container-fluid" style="
+        background-color: #161b1f;
+        height: 3rem;
+        color: white;
+        text-align: center;
+        margin-bottom: 1rem;">
+            <h5 style="padding: .7rem">
+                This website is reserved for &copy; eBirds-Team
+            </h5>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </div>
+</body>
+
+</html>
